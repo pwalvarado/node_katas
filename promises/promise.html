@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            var global;
+            var loader = new Promise(function (resolve, reject) {
+                $.get('form.html').done(function (data){
+                    resolve(data);
+                    global = data;
+                }).fail(function(error){
+                    reject(error);
+                });
+                //catch
+            });
+
+            function eventHandler1(form){
+                $("#container").html(form);
+                $("#action").click(function(){
+                    $("#label").text("event handler 1");
+                });
+            }
+
+            loader
+                .then(
+                    function(data){
+                        eventHandler1(data);
+
+                    },
+                    function(error){
+                        console.log('error');
+                        console.log(error);
+                    })
+                .then(
+                    function(){
+                        console.log(global);
+                    },
+                    function(){
+
+                    }
+                );
+
+
+        </script>
+    </head>
+    <body>
+        <div class="" id="container">
+            <h1>container</h1>
+        </div>
+    </body>
+</html>
