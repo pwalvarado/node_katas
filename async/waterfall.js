@@ -1,3 +1,4 @@
+// reference http://caolan.github.io/async/docs.html#.waterfall
 var async = require('async');
 
 async.waterfall([

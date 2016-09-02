@@ -1,9 +1,6 @@
-// reference http://caolan.github.io/async/docs.html#.series
-var async = require('async');
-
-console.log('using series');
-
-async.series([
+// http://caolan.github.io/async/docs.html#.parallel
+console.log('using parallel');
+async.parallel([
     function (callback) {
         setTimeout(function () {
             console.log('Task 1');
@@ -27,7 +24,10 @@ async.series([
 ], function (error, results) {
     console.log(results);
   });
-// Task 1
-// Task 2
+
+//output
+// using parallel
 // Task 3
+// Task 2
+// Task 1
 // [ 1, 2, 3 ]
