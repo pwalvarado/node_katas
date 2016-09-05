@@ -1,0 +1,22 @@
+{
+  "name": "@risingstack/nodehero-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require co-mocha --recursive ./**/*.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "request": "2.72.0",
+    "chai": "3.5.0",
+    "co-mocha": "1.1.3",
+    "mocha": "3.0.2",
+    "sinon": "1.17.5",
+    "sinon-chai": "2.8.0"
+  }
+}
