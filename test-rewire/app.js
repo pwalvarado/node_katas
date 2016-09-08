@@ -1,0 +1,3 @@
+function logMongoError() {
+  return false;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "nada",
+  "main": "app.js",
+  "scripts": {
+      "test": "./node_modules/mocha/bin/mocha app.test.js  --reporter spec"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "rewire": "^2.5.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
