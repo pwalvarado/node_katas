@@ -1,0 +1,59 @@
+{
+    Contents: [{
+        Key: 'state-machine/',
+        LastModified: Sat Sep 03 2016 02: 35: 05 GMT + 0000(UTC),
+        ETag: '"d41d8cd98f00b204e9800998ecf8427e"',
+        Size: 0,
+        StorageClass: 'STANDARD',
+        Owner: [Object]
+    }, {
+        Key: 'state-machine/1.js',
+        LastModified: Mon Sep 05 2016 23: 48: 11 GMT + 0000(UTC),
+        ETag: '"34680c5d87161d1707eff8a2a1f30853"',
+        Size: 2601,
+        StorageClass: 'STANDARD',
+        Owner: [Object]
+    }, {
+        Key: 'state-machine/7fbcf779-74cb-4150-acf2-c5eaa1b6c527.js',
+        LastModified: Mon Sep 05 2016 20: 03: 39 GMT + 0000(UTC),
+        ETag: '"440944e274f68eb5f4e228342a5cebea"',
+        Size: 3114,
+        StorageClass: 'STANDARD',
+        Owner: [Object]
+    }, {
+        Key: 'state-machine/deployments/',
+        LastModified: Sun Sep 04 2016 20: 29: 18 GMT + 0000(UTC),
+        ETag: '"d41d8cd98f00b204e9800998ecf8427e"',
+        Size: 0,
+        StorageClass: 'STANDARD',
+        Owner: [Object]
+    }, {
+        Key: 'state-machine/deployments/csc-workorder-paisatest-states.zip',
+        LastModified: Mon Sep 05 2016 19: 20: 33 GMT + 0000(UTC),
+        ETag: '"48d805013cf2b5eb2f722d9348bd091a"',
+        Size: 4256,
+        StorageClass: 'STANDARD',
+        Owner: [Object]
+    }, {
+        Key: 'state-machine/state-machine-node.js',
+        LastModified: Mon Sep 05 2016 23: 48: 13 GMT + 0000(UTC),
+        ETag: '"89fb9f7dff2af0a5fef170325a5119ee"',
+        Size: 218,
+        StorageClass: 'STANDARD',
+        Owner: [Object]
+    }, {
+        Key: 'state-machine/templates/',
+        LastModified: Mon Sep 05 2016 00: 17: 23 GMT + 0000(UTC),
+        ETag: '"d41d8cd98f00b204e9800998ecf8427e"',
+        Size: 0,
+        StorageClass: 'STANDARD',
+        Owner: [Object]
+    }, {
+        Key: 'state-machine/templates/state-machine-template.js',
+        LastModified: Mon Sep 05 2016 14: 12: 20 GMT + 0000(UTC),
+        ETag: '"de8cebc13eb1d94877a58cccdce0f26d"',
+        Size: 1777,
+        StorageClass: 'STANDARD',
+        Owner: [Object]
+    }]
+}
