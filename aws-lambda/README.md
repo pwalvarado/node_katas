@@ -39,6 +39,7 @@ Navigate to following folders, and see instructions on each README file
 
 - [node-lambda](https://github.com/motdotla/node-lambda)
 - [lambda-local](https://github.com/ashiina/lambda-local)
+- [lambda-wrapper](https://github.com/SC5/lambda-wrapper). Take a look!
 - [grunt-aws-lambda](https://www.npmjs.com/package/grunt-aws-lambda)
 - [kappa](https://github.com/garnaat/kappa) use python, not my taste!
 - [.dotenv](https://www.npmjs.com/package/dotenv)
@@ -54,3 +55,22 @@ A module helps you automate AWS lambda function deployment. All lambda configura
 
 - [Related article](https://www.aerobatic.com/blog/lambda-continuous-deployment)
 - [blue-green-deployer](https://github.com/BambeeQ/opsworks-auto-deploy-lambda-function) Lambda function to support automatic deployment / blue-green switching.
+
+### CloudFormation
+
+[ validate your CF template](https://github.com/tmilewski/serverless-resources-validation-plugin)
+
+### Serverless
+
+- [serverless 1.0](https://github.com/serverless/serverless/tree/1.0.0-rc.1)
+
+  Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
+
+https://github.com/serverless-examples/serverless-cd-example
+
+### Testing
+
+- [very basic](https://github.com/imaifactory/myFirstLambda) chai, istambul
+- [Unit Testing AWS Lambda Functions in Node.js](https://medium.com/vandium-software/unit-testing-aws-lambda-functions-in-node-js-7ad6c8f5000#.m2ujady8s)
+- [test-without-aws/](https://www.codedad.net/2016/01/03/test-aws-lambda-function-without-aws/) aws-lambda-mock-context
+- Good http://stackoverflow.com/questions/36120984/mocking-in-aws-lambda
