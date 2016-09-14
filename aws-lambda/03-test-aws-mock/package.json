@@ -1,0 +1,19 @@
+{
+  "name": "03-test-aws-mock",
+  "version": "1.0.0",
+  "description": "test with aws-lambda-mock-context and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-lambda-mock-context": "^3.0.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.5"
+  }
+}

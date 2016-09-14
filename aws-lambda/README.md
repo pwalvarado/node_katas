@@ -30,6 +30,7 @@ Navigate to following folders, and see instructions on each README file
 
 - 01-node-lambda
 - 02-lambda-local. Selected!
+- 03-test-aws-mock. follow up of [Test Amazon Alexa Skills Offline](https://www.thepolyglotdeveloper.com/2016/08/test-amazon-alexa-skills-offline-with-mocha-and-chai-for-node-js/)
 
 ## References
 
@@ -72,5 +73,5 @@ https://github.com/serverless-examples/serverless-cd-example
 
 - [very basic](https://github.com/imaifactory/myFirstLambda) chai, istambul
 - [Unit Testing AWS Lambda Functions in Node.js](https://medium.com/vandium-software/unit-testing-aws-lambda-functions-in-node-js-7ad6c8f5000#.m2ujady8s)
-- [test-without-aws/](https://www.codedad.net/2016/01/03/test-aws-lambda-function-without-aws/) aws-lambda-mock-context
+- [Test Amazon Alexa Skills Offline](https://www.thepolyglotdeveloper.com/2016/08/test-amazon-alexa-skills-offline-with-mocha-and-chai-for-node-js/), related:  incomplete:[test without aws](https://www.codedad.net/2016/01/03/test-aws-lambda-function-without-aws/) aws-lambda-mock-context
 - Good http://stackoverflow.com/questions/36120984/mocking-in-aws-lambda
