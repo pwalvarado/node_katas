@@ -1,0 +1,4 @@
+- [ruby-on-lambda](https://github.com/lorennorman/ruby-on-lambda)
+- [Executing Ruby code in AWS Lambda](https://pprakash.me/tech/2015/11/29/executing-ruby-code-in-aws-lambda/)
+- [How to run Ruby scripts on AWS Lambda using Ansible](How to run Ruby scripts on AWS Lambda using Ansible)
+- [Traveling Ruby](http://phusion.github.io/traveling-ruby/)

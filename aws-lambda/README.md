@@ -52,6 +52,8 @@ An open-source deployment tool for Node.js microservices that makes getting star
 - [node-aws-lambda](https://github.com/ThoughtWorksStudios/node-aws-lambda) Use gulp
 A module helps you automate AWS lambda function deployment. All lambda configuration is managed in the codebase, includes event source mappings. So you can version control everything and automate the deployment instead of click click click in AWS console.
 
+- [λ Gordon](https://github.com/jorgebastida/gordon) is a tool to create, wire and deploy AWS Lambdas using CloudFormation
+
 ### Typedeployer workflow
 
 - [Related article](https://www.aerobatic.com/blog/lambda-continuous-deployment)
@@ -59,7 +61,7 @@ A module helps you automate AWS lambda function deployment. All lambda configura
 
 ### CloudFormation
 
-[ validate your CF template](https://github.com/tmilewski/serverless-resources-validation-plugin)
+[validate your CF template](https://github.com/tmilewski/serverless-resources-validation-plugin)
 
 ### Serverless
 
@@ -68,6 +70,15 @@ A module helps you automate AWS lambda function deployment. All lambda configura
   Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
 
 https://github.com/serverless-examples/serverless-cd-example
+
+
+- AWSOME Lists
+
+https://github.com/JustServerless/awesome-serverless
+https://github.com/anaibol/awesome-serverless
+https://github.com/simplemerchant/awesome-aws-lambda
+https://github.com/donnemartin/awesome-aws#lambda
+
 
 ### Testing
 
